@@ -8,8 +8,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
-import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
@@ -33,7 +31,7 @@ class OrderServiceTest {
         order = new Order();
         order.setId(1L);
         order.setClientId(100L);
-        order.setDateCommande(LocalDate.now());
+   
     }
 
     @Test
@@ -80,7 +78,7 @@ class OrderServiceTest {
     void testUpdateOrder() {
         Order updatedDetails = new Order();
         updatedDetails.setClientId(200L);
-        updatedDetails.setDateCommande(LocalDate.now());
+    
 
         when(orderRepository.findById(1L)).thenReturn(Optional.of(order));
         when(orderRepository.save(any(Order.class))).thenReturn(order);
