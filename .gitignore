@@ -1,7 +1,7 @@
-### Maven ###
+# Maven #
 target/
 
-### STS / Eclipse ###
+# STS / Eclipse #
 .apt_generated
 .classpath
 .factorypath
@@ -9,11 +9,11 @@ target/
 .settings/
 .springBeans
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA ###
 .idea/
 *.iws
 *.iml
 *.ipr
 
-### OS ###
+# OS #
 .DS_Store

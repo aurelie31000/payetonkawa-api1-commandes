@@ -1,9 +1,0 @@
-com\payetonkawa\order\exception\ResourceNotFoundException.class
-com\payetonkawa\order\model\Order.class
-com\payetonkawa\order\repository\OrderRepository.class
-com\payetonkawa\order\OrderApplication.class
-com\payetonkawa\order\config\RabbitMQConfig.class
-com\payetonkawa\order\OrderMessageListener.class
-com\payetonkawa\order\service\OrderServiceImpl.class
-com\payetonkawa\order\service\OrderService.class
-com\payetonkawa\order\controller\OrderController.class
